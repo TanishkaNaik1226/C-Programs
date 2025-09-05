@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-int n,sum=0;
+int n,s=0;
 int array[1000];
 
 printf("enter the value of n");
@@ -13,9 +13,9 @@ for(int i=0; i<n; i++){
 }
 
 for(int i=0; i<n; i++){
-    sum += array[i];
+    s += array[i];
 }
-printf("sum of the array is %d", sum);
+printf("sum of the array is %d", s);
 return 0;
 }
 
